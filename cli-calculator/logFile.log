@@ -1,0 +1,78 @@
+15:44:46.774 [main] INFO  ca.example.calculator.Calculator - run(): Parse add(-1, 2)
+15:44:46.786 [main] INFO  ca.example.calculator.Parser - parse(): expression result: 1
+15:44:46.786 [main] INFO  ca.example.calculator.Calculator - run(): Parse add(1, mult(2, 3))
+15:44:46.787 [main] INFO  ca.example.calculator.Parser - parse(): expression result: 7
+15:44:46.788 [main] INFO  ca.example.calculator.Calculator - run(): Parse mult(add(2, 2), div(9, 3))
+15:44:46.789 [main] INFO  ca.example.calculator.Parser - parse(): expression result: 12
+15:44:46.789 [main] INFO  ca.example.calculator.Calculator - run(): Parse let(a, 5, add(a, a))
+15:44:46.791 [main] INFO  ca.example.calculator.Parser - parse(): expression result: 10
+15:44:46.791 [main] INFO  ca.example.calculator.Calculator - run(): Parse let(a, 5, let(b, mult(a, 10), add(b, a)))
+15:44:46.795 [main] INFO  ca.example.calculator.Parser - parse(): expression result: 55
+15:44:46.797 [main] INFO  ca.example.calculator.Calculator - run(): Parse let(a, let(b, 10, add(b, b)), let(b, 20, add(a, b))
+15:44:46.799 [main] INFO  ca.example.calculator.Parser - parse(): expression result: 40
+15:44:46.802 [main] INFO  ca.example.calculator.Calculator - Number of lines processed: 6
+15:45:08.698 [main] INFO  ca.example.calculator.Calculator - run(): Parse add(-1, 2)
+15:45:08.709 [main] INFO  ca.example.calculator.Parser - parse(): expression result: 1
+15:45:08.712 [main] INFO  ca.example.calculator.Calculator - run(): Parse add(1, mult(2, 3))
+15:45:08.714 [main] INFO  ca.example.calculator.Parser - parse(): expression result: 7
+15:45:08.718 [main] INFO  ca.example.calculator.Calculator - run(): Parse mult(add(2, 2), div(9, 3))
+15:45:08.719 [main] INFO  ca.example.calculator.Parser - parse(): expression result: 12
+15:45:08.721 [main] INFO  ca.example.calculator.Calculator - run(): Parse let(a, 5, add(a, a))
+15:45:08.726 [main] INFO  ca.example.calculator.Parser - parse(): expression result: 10
+15:45:08.727 [main] INFO  ca.example.calculator.Calculator - run(): Parse let(a, 5, let(b, mult(a, 10), add(b, a)))
+15:45:08.730 [main] INFO  ca.example.calculator.Parser - parse(): expression result: 55
+15:45:08.730 [main] INFO  ca.example.calculator.Calculator - run(): Parse let(a, let(b, 10, add(b, b)), let(b, 20, add(a, b))
+15:45:08.732 [main] INFO  ca.example.calculator.Parser - parse(): expression result: 40
+15:45:08.733 [main] INFO  ca.example.calculator.Calculator - Number of lines processed: 6
+16:50:59.613 [main] INFO  ca.example.calculator.Calculator - run(): Parse add(-1, 2)
+16:50:59.639 [main] INFO  ca.example.calculator.Parser - parse(): expression result: 1
+16:50:59.640 [main] INFO  ca.example.calculator.Calculator - run(): Parse add(1, mult(2, 3))
+16:50:59.642 [main] INFO  ca.example.calculator.Parser - parse(): expression result: 7
+16:50:59.642 [main] INFO  ca.example.calculator.Calculator - run(): Parse mult(add(2, 2), div(9, 3))
+16:50:59.643 [main] INFO  ca.example.calculator.Parser - parse(): expression result: 12
+16:50:59.644 [main] INFO  ca.example.calculator.Calculator - run(): Parse let(a, 5, add(a, a))
+16:50:59.645 [main] INFO  ca.example.calculator.Parser - parse(): expression result: 10
+16:50:59.646 [main] INFO  ca.example.calculator.Calculator - run(): Parse let(a, 5, let(b, mult(a, 10), add(b, a)))
+16:50:59.649 [main] INFO  ca.example.calculator.Parser - parse(): expression result: 55
+16:50:59.649 [main] INFO  ca.example.calculator.Calculator - run(): Parse let(a, let(b, 10, add(b, b)), let(b, 20, add(a, b))
+16:50:59.655 [main] INFO  ca.example.calculator.Parser - parse(): expression result: 40
+16:50:59.656 [main] INFO  ca.example.calculator.Calculator - Number of lines processed: 6
+17:10:59.113 [main] INFO  ca.example.calculator.Calculator - run(): Parse add(-1, 2)
+17:10:59.163 [main] INFO  ca.example.calculator.Parser - parse(): expression result: 1
+17:10:59.163 [main] INFO  ca.example.calculator.Calculator - run(): Parse add(1, mult(2, 3))
+17:10:59.165 [main] INFO  ca.example.calculator.Parser - parse(): expression result: 7
+17:10:59.165 [main] INFO  ca.example.calculator.Calculator - run(): Parse mult(add(2, 2), div(9, 3))
+17:10:59.169 [main] INFO  ca.example.calculator.Parser - parse(): expression result: 12
+17:10:59.170 [main] INFO  ca.example.calculator.Calculator - run(): Parse let(a, 5, add(a, a))
+17:10:59.172 [main] INFO  ca.example.calculator.Parser - parse(): expression result: 10
+17:10:59.173 [main] INFO  ca.example.calculator.Calculator - run(): Parse let(a, 5, let(b, mult(a, 10), add(b, a)))
+17:10:59.185 [main] INFO  ca.example.calculator.Parser - parse(): expression result: 55
+17:10:59.187 [main] INFO  ca.example.calculator.Calculator - run(): Parse let(a, let(b, 10, add(b, b)), let(b, 20, add(a, b))
+17:10:59.190 [main] INFO  ca.example.calculator.Parser - parse(): expression result: 40
+17:10:59.191 [main] INFO  ca.example.calculator.Calculator - Number of lines processed: 6
+17:12:17.562 [main] INFO  ca.example.calculator.Calculator - run(): Parse add(-1, 2)
+17:12:17.603 [main] INFO  ca.example.calculator.Parser - parse(): expression result: 1
+17:12:17.604 [main] INFO  ca.example.calculator.Calculator - run(): Parse add(1, mult(2, 3))
+17:12:17.605 [main] INFO  ca.example.calculator.Parser - parse(): expression result: 7
+17:12:17.605 [main] INFO  ca.example.calculator.Calculator - run(): Parse mult(add(2, 2), div(9, 3))
+17:12:17.607 [main] INFO  ca.example.calculator.Parser - parse(): expression result: 12
+17:12:17.607 [main] INFO  ca.example.calculator.Calculator - run(): Parse let(a, 5, add(a, a))
+17:12:17.608 [main] INFO  ca.example.calculator.Parser - parse(): expression result: 10
+17:12:17.609 [main] INFO  ca.example.calculator.Calculator - run(): Parse let(a, 5, let(b, mult(a, 10), add(b, a)))
+17:12:17.611 [main] INFO  ca.example.calculator.Parser - parse(): expression result: 55
+17:12:17.612 [main] INFO  ca.example.calculator.Calculator - run(): Parse let(a, let(b, 10, add(b, b)), let(b, 20, add(a, b))
+17:12:17.618 [main] INFO  ca.example.calculator.Parser - parse(): expression result: 40
+17:12:17.619 [main] INFO  ca.example.calculator.Calculator - Number of lines processed: 6
+17:13:36.743 [main] INFO  ca.example.calculator.Calculator - run(): Expression 'add(-1, 2)'
+17:13:36.792 [main] INFO  ca.example.calculator.Parser - parse(): expression result: 1
+17:13:36.792 [main] INFO  ca.example.calculator.Calculator - run(): Expression 'add(1, mult(2, 3))'
+17:13:36.794 [main] INFO  ca.example.calculator.Parser - parse(): expression result: 7
+17:13:36.794 [main] INFO  ca.example.calculator.Calculator - run(): Expression 'mult(add(2, 2), div(9, 3))'
+17:13:36.796 [main] INFO  ca.example.calculator.Parser - parse(): expression result: 12
+17:13:36.796 [main] INFO  ca.example.calculator.Calculator - run(): Expression 'let(a, 5, add(a, a))'
+17:13:36.797 [main] INFO  ca.example.calculator.Parser - parse(): expression result: 10
+17:13:36.798 [main] INFO  ca.example.calculator.Calculator - run(): Expression 'let(a, 5, let(b, mult(a, 10), add(b, a)))'
+17:13:36.800 [main] INFO  ca.example.calculator.Parser - parse(): expression result: 55
+17:13:36.800 [main] INFO  ca.example.calculator.Calculator - run(): Expression 'let(a, let(b, 10, add(b, b)), let(b, 20, add(a, b))'
+17:13:36.802 [main] INFO  ca.example.calculator.Parser - parse(): expression result: 40
+17:13:36.803 [main] INFO  ca.example.calculator.Calculator - Number of lines processed: 6
